@@ -28,6 +28,7 @@
 		699861E8166BB9C90065167A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 699861E6166BB9C90065167A /* InfoPlist.strings */; };
 		699861EB166BB9C90065167A /* StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699861EA166BB9C90065167A /* StringTests.m */; };
 		69E336AB166FFDBD0093DAEA /* StringSil.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E336AA166FFDBD0093DAEA /* StringSil.m */; };
+		69E336B7166FFF4F0093DAEA /* StringSil1.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E336B6166FFF4F0093DAEA /* StringSil1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		699861EA166BB9C90065167A /* StringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringTests.m; sourceTree = "<group>"; };
 		69E336A9166FFDBD0093DAEA /* StringSil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSil.h; sourceTree = "<group>"; };
 		69E336AA166FFDBD0093DAEA /* StringSil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSil.m; sourceTree = "<group>"; };
+		69E336B5166FFF4F0093DAEA /* StringSil1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringSil1.h; path = String/StringSil1.h; sourceTree = "<group>"; };
+		69E336B6166FFF4F0093DAEA /* StringSil1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringSil1.m; path = String/StringSil1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 		699861A2166BB9C80065167A = {
 			isa = PBXGroup;
 			children = (
+				69E336B5166FFF4F0093DAEA /* StringSil1.h */,
+				69E336B6166FFF4F0093DAEA /* StringSil1.m */,
 				699861BB166BB9C90065167A /* String */,
 				699861E3166BB9C90065167A /* StringTests */,
 				699861B0166BB9C90065167A /* Frameworks */,
@@ -296,6 +301,7 @@
 				699861C6166BB9C90065167A /* StringAppDelegate.m in Sources */,
 				699861D6166BB9C90065167A /* StringViewController.m in Sources */,
 				69E336AB166FFDBD0093DAEA /* StringSil.m in Sources */,
+				69E336B7166FFF4F0093DAEA /* StringSil1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
