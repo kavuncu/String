@@ -27,6 +27,7 @@
 		699861E0166BB9C90065167A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699861B3166BB9C90065167A /* Foundation.framework */; };
 		699861E8166BB9C90065167A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 699861E6166BB9C90065167A /* InfoPlist.strings */; };
 		699861EB166BB9C90065167A /* StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699861EA166BB9C90065167A /* StringTests.m */; };
+		69E336AB166FFDBD0093DAEA /* StringSil.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E336AA166FFDBD0093DAEA /* StringSil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		699861E7166BB9C90065167A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		699861E9166BB9C90065167A /* StringTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringTests.h; sourceTree = "<group>"; };
 		699861EA166BB9C90065167A /* StringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringTests.m; sourceTree = "<group>"; };
+		69E336A9166FFDBD0093DAEA /* StringSil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSil.h; sourceTree = "<group>"; };
+		69E336AA166FFDBD0093DAEA /* StringSil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				699861D4166BB9C90065167A /* StringViewController.h */,
 				699861D5166BB9C90065167A /* StringViewController.m */,
 				699861BC166BB9C90065167A /* Supporting Files */,
+				69E336A9166FFDBD0093DAEA /* StringSil.h */,
+				69E336AA166FFDBD0093DAEA /* StringSil.m */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				699861C2166BB9C90065167A /* main.m in Sources */,
 				699861C6166BB9C90065167A /* StringAppDelegate.m in Sources */,
 				699861D6166BB9C90065167A /* StringViewController.m in Sources */,
+				69E336AB166FFDBD0093DAEA /* StringSil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +470,7 @@
 				699861F0166BB9C90065167A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		699861F1166BB9C90065167A /* Build configuration list for PBXNativeTarget "StringTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				699861F3166BB9C90065167A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
