@@ -147,6 +147,8 @@
 				699861BC166BB9C90065167A /* Supporting Files */,
 				69E336A9166FFDBD0093DAEA /* StringSil.h */,
 				69E336AA166FFDBD0093DAEA /* StringSil.m */,
+				69E336B8166FFFD50093DAEA /* StringSil2.h */,
+				69E336B9166FFFD50093DAEA /* StringSil2.m */,
 			);
 			path = String;
 			sourceTree = "<group>";
