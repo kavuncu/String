@@ -29,6 +29,7 @@
 		699861EB166BB9C90065167A /* StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699861EA166BB9C90065167A /* StringTests.m */; };
 		69E336AB166FFDBD0093DAEA /* StringSil.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E336AA166FFDBD0093DAEA /* StringSil.m */; };
 		69E336BA166FFFD50093DAEA /* StringSil2.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E336B9166FFFD50093DAEA /* StringSil2.m */; };
+		69E336C21670E6960093DAEA /* StringViewControllerSil1.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E336C11670E6960093DAEA /* StringViewControllerSil1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		69E336AA166FFDBD0093DAEA /* StringSil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSil.m; sourceTree = "<group>"; };
 		69E336B8166FFFD50093DAEA /* StringSil2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSil2.h; sourceTree = "<group>"; };
 		69E336B9166FFFD50093DAEA /* StringSil2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSil2.m; sourceTree = "<group>"; };
+		69E336C01670E6960093DAEA /* StringViewControllerSil1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringViewControllerSil1.h; sourceTree = "<group>"; };
+		69E336C11670E6960093DAEA /* StringViewControllerSil1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringViewControllerSil1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 				69E336AA166FFDBD0093DAEA /* StringSil.m */,
 				69E336B8166FFFD50093DAEA /* StringSil2.h */,
 				69E336B9166FFFD50093DAEA /* StringSil2.m */,
+				69E336C01670E6960093DAEA /* StringViewControllerSil1.h */,
+				69E336C11670E6960093DAEA /* StringViewControllerSil1.m */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				699861D6166BB9C90065167A /* StringViewController.m in Sources */,
 				69E336AB166FFDBD0093DAEA /* StringSil.m in Sources */,
 				69E336BA166FFFD50093DAEA /* StringSil2.m in Sources */,
+				69E336C21670E6960093DAEA /* StringViewControllerSil1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
