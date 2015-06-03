@@ -1,3 +1,3 @@
 language: objective-c
 xcode_project: ./String.xcodeproj # path to your xcodeproj folder
-xcode_scheme: StringTests
+xcode_scheme: String
